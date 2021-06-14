@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Animated CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Fuente navbar y títulos -->
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Fuente #vamosinter -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet" />
+
+  <!-- Fuente párrafos y encabezados de noticias -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+
+
+  <title>Inter Ibiza C.D.</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header-container p-2">
+    <div class="header">
+      <!-- Redes sociales -->
+      <div class="redes-container">
+        <div class="vamos-inter">#InterIbiza</div>
+        <div class="redes">
+          <a href="https://www.facebook.com/profile.php?id=100063573734413" target="_blank"><img
+              src="img/facebook-AZUL.png" alt="Facebook" height="30" /></a>
+        </div>
+        <div class="redes">
+          <a href="https://www.instagram.com/interibiza/" target="_blank"><img src="img/instagram-AZUL.png"
+              alt="Instagram" height="30" /></a>
+        </div>
+        <div class="redes">
+          <a href="https://twitter.com/IbizaInter" target="_blank"><img src="img/twitter-AZUL.png" alt="Twitter"
+              height="30" /></a>
+        </div>
+        <div class="redes">
+          <a href="https://www.youtube.com/channel/UCXF9_makr9jYH7hY5ULiBWg" target="_blank"><img
+              src="img/youtube-AZUL.png" alt="Youtube" height="30" /></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Fin de Header -->
+
+  <!-- Navbar -->
+  <nav class="menu-container p-2 align-items-center navbar navbar-ipadpro navbar-expand-xl navbar-light bg-light">
+    <div class="logo-mobile d-block d-sm-block d-md-block d-lg-block d-xl-none">
+      <a href="index.html"><img class="logo-inter" src="img/inter-escudo-sinfondo.png" alt="Inter Ibiza"
+          height="100" /></a>
+    </div>
+    <!-- Navegación -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navbar-collapse justify-content-center" id="navbarNav">
+      <div class="logo d-none d-sm-none d-lg-none d-xl-block ">
+        <a href="index.html"><img class="logo-inter" src="img/inter-escudo-sinfondo.png" alt="Inter Ibiza"
+            height="170" /></a>
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link link-navbar link-navbar-ipadpro" aria-current="page" href="index.html">INICIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-navbar link-navbar-ipadpro" href="./noticias/noticia-1.html">NOTICIAS</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link link-navbar link-navbar-ipadpro dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+            role="button" data-bs-toggle="dropdown" aria-expanded="false">FÚTBOL</a>
+          <ul class="dropdown-menu nav-submenu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item link-navbar-submenu"
+                href="./sitio-en-desarrollo/sitio-en-desarrollo.html">PLANTILLA</a></li>
+            <li><a class="dropdown-item link-navbar-submenu" href="./fútbol/clasificacion.html">CLASIFICACIÓN</a></li>
+            <li><a class="dropdown-item link-navbar-submenu" href="./fútbol/fixture.html">FIXTURE</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link link-navbar link-navbar-ipadpro dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+            role="button" data-bs-toggle="dropdown" aria-expanded="false">CLUB</a>
+          <ul class="dropdown-menu nav-submenu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item link-navbar-submenu" href="directiva.html">DIRECTIVA</a></li>
+            <li><a class="dropdown-item link-navbar-submenu"
+                href="./sitio-en-desarrollo/sitio-en-desarrollo.html">DEPORTES</a></li>
+            <li><a class="dropdown-item link-navbar-submenu"
+                href="./sitio-en-desarrollo/sitio-en-desarrollo.html">HISTORIA</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-navbar link-navbar-ipadpro"
+            href="./sitio-en-desarrollo/sitio-en-desarrollo.html">HAZTE SOCIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-navbar link-navbar-ipadpro"
+            href="./sitio-en-desarrollo/sitio-en-desarrollo.html">TIENDA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-navbar link-navbar-ipadpro" href="contacto.html">CONTACTO</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <!-- Fin Navbar -->
+
+  <!-- Section 3 - Noticias -->
+
+  <!-- DESKTOP -->
+  <section class="section-noticias-grid container section-noticias-flex">
+    <div class="noticia-principal">
+      <div class="encabezado-noticia-principal d-none d-sm-none d-lg-none d-xl-block">Fútbol Profesional</div>
+      <a href="./noticias/noticia-4.html" class="index-titulo-noticia-principal d-block d-sm-block d-lg-block d-xl-none">
+        <h1 class="index-titulo-noticia-principal">Sueño alcanzado</h1>
+      </a>
+      <a href="./noticias/noticia-4.html"><img src="img/campeones 800x600.jpg" alt="Plantel de fútbol profesional"
+          class="imagen-noticia-2 img-fluid"></a>
+      <a href="./noticias/noticia-4.html" class="index-titulo-noticia-principal d-none d-sm-none d-lg-none d-xl-block">
+        <h1>Sueño alcanzado</h1>
+      </a>
+    </div>
+
+    <div class="noticia-2">
+      <div class="encabezado-noticia-2 d-none d-sm-none d-lg-none d-xl-block">Sitio web</div>
+      <a href="./noticias/noticia-1.html" class="index-titulo-noticia-principal d-block d-sm-block d-lg-block d-xl-none">
+        <h2 class="index-titulo-noticia-2">¡Bienvenidos!</h2>
+      </a>
+      <a href="./noticias/noticia-1.html"><img src="img/bienvenidos.jpg" alt="Inter Ibiza"
+          class="imagen-noticia-2 img-fluid"/></a>
+      <a href="./noticias/noticia-1.html" class="index-titulo-noticia d-none d-sm-none d-lg-none d-xl-block">
+        <h2>¡Bienvenidos!</h2>
+      </a>
+    </div>
+
+    <div class="noticia-3">
+      <div class="encabezado-noticia-3 d-none d-sm-none d-lg-none d-xl-block">Fútbol Profesional</div>
+      <a href="./noticias/noticia-3.html"
+        class="index-titulo-noticia-principal d-block d-sm-block d-lg-block d-xl-none">
+        <h2 class="index-titulo-noticia-2">Jornada 22 en directo</h2>
+      </a>
+      <a href="./noticias/noticia-3.html"><img src="img/inter-luchador.jpg" alt="Inter Ibiza vs. Luchador"
+          class="imagen-noticia-3 img-fluid" /></a>
+      <a href="./noticias/noticia-3.html" class="index-titulo-noticia d-none d-sm-none d-lg-none d-xl-block">
+        <h2>Jornada 22 en directo</h2>
+      </a>
+    </div>
+  </section>
+
+  <!-- Fin Section 3 - Noticias -->
+
+  <!-- Section 4 - Fixture -->
+
+  <!-- DESKTOP-TABLET styles -->
+  <section class="section-fixture-grid">
+    <div class="fixture-ultima-jornada">
+      <h2 class="fixture-titulo-jornada">Jornada 21</h2>
+      <p class="fixture-titulo-clasificacion">Regional Preferente Baleares</p>
+      <div class="fixture-resultado">
+        <img src="img-escudos/FCLuchador.png" alt="Inter Ibiza" height="70">
+        1 - 4
+        <img src="img/inter-escudo-sinfondo.png" alt="Penya Independent" height="70">
+      </div>
+      <div class="fixture-ubicacion">
+        <img src="img/estadio.png" alt="" height="30" class="fixture-img">
+        Sant Antoni De Portmany
+      </div>
+      <div class="fixture-horario">
+        <img src="img/calendario.png" alt="" height="30" class="fixture-img">
+        Domingo 6 de junio del 2021, 18:30
+      </div>
+    </div>
+
+    <div class="fixture-proxima-jornada">
+      <h2 ><a href="./noticias/noticia-3.html" class="fixture-titulo-jornada">Jornada 22<img src="img/derecho.png"  height="15" alt="flecha"></a></h2>
+      <p class="fixture-titulo-clasificacion">Regional Preferente Baleares</p>
+      <div class="fixture-resultado">
+        <img src="img/inter-escudo-sinfondo.png" alt="Inter Ibiza" height="70">
+        3 - 0
+        <img src="img-escudos/FCLuchador.png" alt="C.D. Puig den Valls" height="70">
+      </div>
+      <div class="fixture-ubicacion">
+        <img src="img/estadio.png" alt="" height="30" class="fixture-img">
+        Estadio Can Cantó
+      </div>
+      <div class="fixture-horario">
+        <img src="img/calendario.png" alt="" height="30" class="fixture-img">
+        Domingo 13 de junio del 2021, 18:00
+      </div>
+    </div>
+
+    <div class="fixture-clasificacion">
+      <h2 class="fixture-titulo-jornada">Clasificación</h2>
+      <p class="fixture-titulo-clasificacion">Regional Preferente Baleares</p>
+      <table class="fixture-tabla-clasificacion">
+        <tr class="fixture-col-pos">
+          <td>Pos</td>
+          <td>Equipo</td>
+          <td>Pts</td>
+        </tr>
+        <tr class="fixture-col-1">
+          <td>1</td>
+          <td><strong>Inter Ibiza</strong></td>
+          <td>47</td>
+        </tr>
+        <tr class="fixture-col-2">
+          <td>2</td>
+          <td>Penya I.</td>
+          <td>47</td>
+        </tr>
+        <tr class="fixture-col-1">
+          <td>3</td>
+          <td>Formentera B</td>
+          <td>43</td>
+        <tr class="fixture-col-2">
+          <td>4</td>
+          <td>Peña Deportiva B</td>
+          <td>42</td>
+        </tr>
+        <tr class="fixture-col-1">
+          <td>5</td>
+          <td>Santa Gertrudis</td>
+          <td>28</td>
+        </tr>
+        <tr class="fixture-col-2">
+          <td>6</td>
+          <td>Luchador del P.</td>
+          <td>25</td>
+        </tr>
+        <tr class="fixture-col-1">
+          <td>7</td>
+          <td>Sant Josep</td>
+          <td>24</td>
+        </tr>
+        <tr class="fixture-col-2">
+          <td>8</td>
+          <td>PE Sant Jordi B</td>
+          <td>18</td>
+        </tr>
+        <tr class="fixture-col-1">
+          <td>9</td>
+          <td>Atlético Jesús</td>
+          <td>15</td>
+        </tr>
+        <tr class="fixture-col-2">
+          <td>10</td>
+          <td>Puig d'en Valls</td>
+          <td>9</td>
+        </tr>
+        <tr class="fixture-col-1">
+          <td>11</td>
+          <td>Bahía San Agustín</td>
+          <td>6</td>
+        </tr>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <!-- Fin DESKTOP-TABLET styles -->
+
+  <!-- MOBILE styles hasta 754px-->
+  <section class="section-fixture-flex">
+    <h2 class="fixture-titulo-flex">Temporada 2020/21</h2>
+    <div class="fixture-jornada-mobile">
+      <h2 class="fixture-titulo-jornada">Última jornada</h2>
+      <p class="fixture-titulo-clasificacion">Regional Preferente Baleares</p>
+      <div class="fixture-resultado-mobile">
+        <img src="img-escudos/FCLuchador.png" alt="Inter Ibiza" height="70" class="fixture-local-mobile">
+        1 - 4
+        <img src="img/inter-escudo-sinfondo.png" alt="Penya Independent" height="70" class="fixture-visitante-mobile">
+      </div>
+      <div class="fixture-ubicacion">
+        <img src="img/estadio.png" alt="" height="30" class="fixture-img">
+        Sant Antoni De Portmany
+      </div>
+      <div class="fixture-horario">
+        <img src="img/calendario.png" alt="" height="30" class="fixture-img">
+        Domingo 6 de junio del 2021, 18:00
+      </div>
+    </div>
+
+    <div class="fixture-jornada-mobile">
+      <h2 class="fixture-titulo-jornada">Próxima jornada</h2>
+      <p class="fixture-titulo-clasificacion">Regional Preferente Baleares</p>
+      <div class="fixture-resultado-mobile">
+        <img src="img/inter-escudo-sinfondo.png" alt="Inter Ibiza" height="70" class="fixture-local-mobile">
+        VS
+        <img src="img-escudos/FCLuchador.png" alt="C.D. Puig den Valls" height="70" class="fixture-visitante-mobile">
+      </div>
+      <div class="fixture-ubicacion">
+        <img src="img/estadio.png" alt="" height="30" class="fixture-img">
+        Estadio Can Cantó
+      </div>
+      <div class="fixture-horario">
+        <img src="img/calendario.png" alt="" height="30" class="fixture-img">
+        Domingo 13 de junio del 2021, 18:00
+      </div>
+    </div>
+
+    <div class="fixture-jornada-mobile">
+      <h2 class="fixture-titulo-jornada">Clasificación</h2>
+      <p class="fixture-titulo-clasificacion">Regional Preferente Baleares</p>
+      <table class="fixture-tabla-clasificacion justify-content-center">
+        <tr class="fixture-col-pos">
+          <td>Pos</td>
+          <td>Equipo</td>
+          <td>Pts</td>
+        </tr>
+        <tr class="fixture-col-1">
+          <td>1</td>
+          <td><strong>Inter Ibiza</strong></td>
+          <td>44</td>
+        </tr>
+        <tr class="fixture-col-2">
+          <td>2</td>
+          <td>Penya I.</td>
+          <td>44</td>
+        </tr>
+        <tr class="fixture-col-1">
+          <td>3</td>
+          <td>Formentera B</td>
+          <td>43</td>
+        <tr class="fixture-col-2">
+          <td>4</td>
+          <td>Peña Deportiva B</td>
+          <td>42</td>
+        </tr>
+        <tr class="fixture-col-1">
+          <td>5</td>
+          <td>Santa Gertrudis</td>
+          <td>28</td>
+        </tr>
+        <tr class="fixture-col-2">
+          <td>6</td>
+          <td>Luchador del P.</td>
+          <td>25</td>
+        </tr>
+        <tr class="fixture-col-1">
+          <td>7</td>
+          <td>Sant Josep</td>
+          <td>24</td>
+        </tr>
+        <tr class="fixture-col-2">
+          <td>8</td>
+          <td>PE Sant Jordi B</td>
+          <td>18</td>
+        </tr>
+        <tr class="fixture-col-1">
+          <td>9</td>
+          <td>Atlético Jesús</td>
+          <td>15</td>
+        </tr>
+        <tr class="fixture-col-2">
+          <td>10</td>
+          <td>Puig d'en Valls</td>
+          <td>9</td>
+        </tr>
+        <tr class="fixture-col-1">
+          <td>11</td>
+          <td>Bahía San Agustín</td>
+          <td>6</td>
+      </table>
+    </div>
+  </section>
+  <!-- FIN  MOBILE styles hasta 754px-->
+
+  <!-- FIN Section 4 - Fixture -->
+
+  <!-- Section 5 - Redes Sociales -->
+
+  <!-- DESKTOP styles -->
+  <section class="section-5-container">
+    <div class="background-titulo" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine"></div>
+    <h2 class="section-5-titulo">¡Síguenos en nuestras Redes!</h2>
+
+    <div class="background-redes">
+      <div class="section-5-redes-flex" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <a href="https://www.facebook.com/profile.php?id=100063573734413" target="_blank"><img src="img/facebook5.png"
+            alt="Facebook" height="100" class="redes-sociales"></a>
+        <a href="https://www.instagram.com/interibiza/" target="_blank"><img src="img/instagram2.png" alt="Instagram"
+            height="100" class="redes-sociales"></a>
+        <a href="https://twitter.com/IbizaInter" target="_blank"><img src="img/tw4.png" alt="Twitter" height="100"
+            class="redes-sociales"></a>
+        <a href="https://www.youtube.com/channel/UCXF9_makr9jYH7hY5ULiBWg" target="_blank"><img src="img/yt2.png"
+            alt="Youtube" height="100" class="redes-sociales"></a>
+      </div>
+      <div class="section-5-redes-flex-mobile">
+        <a href="https://www.facebook.com/profile.php?id=100063573734413" target="_blank"><img src="img/facebook5.png"
+            alt="Facebook" height="100" class="redes-sociales"></a>
+        <a href="https://www.instagram.com/interibiza/" target="_blank"><img src="img/instagram2.png" alt="Instagram"
+            height="100" class="redes-sociales"></a>
+        <a href="https://twitter.com/IbizaInter" target="_blank"><img src="img/tw4.png" alt="Twitter" height="100"
+            class="redes-sociales"></a>
+        <a href="https://www.youtube.com/channel/UCXF9_makr9jYH7hY5ULiBWg" target="_blank"><img src="img/yt2.png"
+            alt="Youtube" height="100" class="redes-sociales"></a>
+      </div>
+      <p class="section-5-inter-ibiza">#VamosInter</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <!-- Sponsors footer -->
+    <div class="color-sponsors">
+      <section class="sponsors">
+        <a href="https://www.joma-sport.com/" target="_blank" class="imagen-sponsor">
+          <img src="img/Joma-Logo.png" alt="sponsor joma" height="120">
+        </a>
+        <a href="https://www.instagram.com/p/CNqEUydMyRG/" target="_blank" class="imagen-sponsor">
+          <img src="img/5ac036dd-6810-42bd-a005-986f92b201f8.jfif" alt="sponsor conecting sports talent" height="60">
+        </a>
+      </section>
+    </div>
+    <!-- Final sponsors footer -->
+
+    <!-- Escudo footer -->
+    <div class="lemur-container">
+      <section class="lemur">
+        Desarrollado por Lemur Media Studio®
+        <a href="./sitio-en-desarrollo/sitio-en-desarrollo.html" target="_blank" class="imagen-sponsor">
+          <img src="img/Lemur-1.png" alt="sponsor lemur media studio" height="80">
+        </a>
+      </section>
+    </div>
+    <!-- Final Escudo footer -->
+  </footer>
+  <!-- Final footer -->
+
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

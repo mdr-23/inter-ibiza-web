@@ -1,0 +1,554 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titulo-pagina {
+  font-size: 65px;
+  font-family: "Kanit", sans-serif;
+  color: aliceblue;
+}
+
+/* Header */
+
+/* DESKTOP styles*/
+.header-container {
+  background-color: #ffff4d;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Permanent Marker", cursive;
+  color: #0436ff;
+  font-size: 21px;
+}
+
+.redes-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1030px;
+}
+
+.redes {
+  margin-left: 3px;
+}
+
+.redes:hover {
+  filter: brightness(80%);
+}
+
+/* Fin DESKTOP Styles*/
+
+/* MOBILE styles */
+@media only screen and (max-width: 576px) {
+  .header-container {
+    background-color: #ffff4d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vamos-inter {
+    display: none;
+  }
+
+  .redes-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .redes {
+    margin-left: 6px;
+  }
+}
+/* Fin MOBILE Styles*/
+
+/* TABLET styles */
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+  .header-container {
+    background-color: #ffff4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vamos-inter {
+    display: none;
+  }
+
+  .redes-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .redes {
+    margin-left: 6px;
+  }
+}
+/* Fin TABLET Styles*/
+
+/* Fin del Header */
+
+/* Navbar */
+
+/* DESKTOP styles */
+.menu-container {
+  background-color: #0436ff !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+
+.logo {
+  filter: drop-shadow(0 0 0.5rem black);
+  position: relative;
+  bottom: 45px;
+  margin-bottom: -70px;
+  transition: all 0.5s;
+}
+
+.logo-mobile {
+  filter: drop-shadow(0 0 0.5rem black);
+  position: relative;
+  transition: all 0.5s;
+  margin-right: 50px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logo-mobile:hover {
+  transform: scale(1.1);
+}
+
+.navbar {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center;
+}
+
+.navbar li {
+  text-align: center;
+  margin-left: 40px;
+}
+
+.link-navbar {
+  display: block;
+  color: aliceblue !important;
+  padding: 8px 2.5rem 8px 0 !important;
+  font-size: 20px !important;
+  font-family: "Kanit", sans-serif !important;
+  text-decoration: none !important;
+  border-right: #ffff4d solid 1px;
+  border-collapse: separate;
+}
+
+.link-navbar-submenu {
+  color: #0436ff;
+  font-size: 18px;
+  font-family: "Kanit", sans-serif;
+  text-decoration: none;
+  padding: 10px 20px;
+  position: relative;
+  right: 20px;
+  border: #0436ff 1px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-navbar-submenu:last-of-type {
+  border-bottom: none;
+}
+
+.nav-submenu {
+  background-image: url(../img/background.jpg);
+}
+
+.link-navbar-submenu:hover {
+  background-color: rgba(240, 240, 240, 0.925) !important;
+  color: #0436ff;
+}
+
+.navbar-mobile {
+  display: none;
+}
+
+.menu-mobile {
+  display: none;
+}
+/* Fin DESKTOP styles */
+
+/* Fin Navbar */
+
+.seccion-1-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(../img/jaja.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 120px;
+  font-size: 65px;
+  font-family: "Kanit", sans-serif;
+  color: aliceblue;
+}
+
+.contenedor-fixture {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.container-titulos-fixture {
+  padding-top: 50px;
+}
+
+.titulo-fixture {
+  font-family: "Kanit", sans-serif;
+  font-size: 38px !important;
+  color: #0436ff;
+  text-align: center;
+  border-bottom: #0436ff solid 2px;
+}
+
+.subtitulo-fixture {
+  font-family: "Kanit", sans-serif;
+  font-size: 28px !important;
+  text-align: center;
+  color: black;
+}
+
+.divisiones-fixture {
+  font-family: "Kanit", sans-serif;
+  background-color: #0436ff;
+  color: white;
+  font-size: 20px !important;
+}
+
+.info-fixture {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  background: aliceblue;
+}
+
+.color-numero {
+  background-color: #0436ff !important;
+  color: aliceblue;
+  padding: 5px 10px !important;
+}
+
+th {
+  width: 5%;
+}
+
+td {
+  width: 5%;
+}
+
+.jornada-final {
+  text-decoration: none;
+  color: black;
+}
+
+.jornada-final a:hover {
+  color: #0436ff;
+}
+
+/* MOBILE STYLES FIXTURE */
+@media only screen and (max-width: 500px) {
+  .titulo-pagina {
+    font-size: 40px;
+  }
+
+  .seccion-1-contacto {
+    display: none;
+  }
+
+  .tabla {
+    width: 50px !important;
+  }
+
+  .seccion-1-fixture-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../img/jaja.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 45px;
+    font-size: 40px;
+    font-family: "Kanit", sans-serif;
+    color: aliceblue;
+  }
+
+  .contenedor-fixture {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container-titulos-fixture {
+    text-align: center;
+  }
+
+  .titulo-fixture {
+    font-family: "Kanit", sans-serif;
+    font-size: 18px !important;
+    color: #0436ff;
+    text-align: center;
+    border-bottom: #0436ff solid 1px;
+  }
+
+  .subtitulo-fixture {
+    font-family: "Kanit", sans-serif;
+    font-size: 15px !important;
+    text-align: center;
+    color: black;
+  }
+
+  .divisiones-fixture {
+    font-family: "Kanit", sans-serif;
+    background-color: #0436ff;
+    color: white;
+    font-size: 8px;
+  }
+
+  .info-fixture {
+    font-family: "Inter", sans-serif;
+    font-size: 8px;
+    background: aliceblue;
+  }
+
+  .color-numero {
+    background-color: #0436ff !important;
+    color: aliceblue;
+    padding: 5px 5px !important;
+  }
+
+  td {
+    width: 50% !important;
+  }
+}
+
+/* TABLET STYLES FIXTURE */
+@media only screen and (min-width: 501px) and (max-width: 1200px) {
+  .titulo-pagina {
+    font-size: 40px;
+  }
+
+  .seccion-1-fixture-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    background-image: url(../img/jaja.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px;
+    font-size: 40px;
+    font-family: "Kanit", sans-serif;
+    color: aliceblue;
+  }
+
+  .contenedor-fixture {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .titulo-fixture {
+    font-family: "Kanit", sans-serif;
+    font-size: 26px !important;
+    color: #0436ff;
+    text-align: center;
+    border-bottom: #0436ff solid 2px;
+  }
+
+  .subtitulo-fixture {
+    font-family: "Kanit", sans-serif;
+    font-size: 18px !important;
+    text-align: center;
+    color: black;
+  }
+
+  .divisiones-fixture {
+    font-family: "Kanit", sans-serif;
+    background-color: #0436ff;
+    color: white;
+    font-size: 10px;
+  }
+
+  .info-fixture {
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    background: aliceblue;
+  }
+
+  .color-numero {
+    background-color: #0436ff !important;
+    color: aliceblue;
+    padding: 5px 10px !important;
+  }
+
+  td {
+    padding: 5px 10px !important;
+  }
+}
+
+/* DESKSTOP STYLES FIXTURE */
+@media only screen and (min-width: 960px) {
+  .contenedor-fixture {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0px 100px;
+  }
+
+  .titulo-fixture {
+    color: #0436ff;
+    text-align: center;
+    border-bottom: #0436ff solid 2px;
+  }
+
+  .subtitulo-fixture {
+    text-align: center;
+    color: black;
+  }
+
+  .divisiones-fixture {
+    font-family: "Kanit", sans-serif;
+    background-color: #0436ff;
+    color: white;
+    font-size: 14px;
+  }
+
+  .info-fixture {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    background: aliceblue;
+  }
+
+  .color-numero {
+    background-color: #0436ff !important;
+    color: aliceblue;
+    padding: 5px 10px !important;
+  }
+
+  td {
+    padding: 5px 10px !important;
+  }
+}
+
+/* Footer sponsor */
+
+.color-sponsors-mobile {
+  display: none;
+}
+
+.color-sponsors {
+  background-color: #ffff4d;
+  margin-top: 15px;
+}
+
+.imagen-sponsor {
+  margin-top: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: auto 50px;
+}
+
+/* Fin fotos sponsor */
+
+/* Lemur footer */
+
+.lemur-container {
+  background-color: #0436ff;
+}
+
+.lemur {
+  color: aliceblue;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  padding: 10px;
+}
+
+/* Final Lemur footer */
+
+/* Mobile styles */ /* Madia type */ /* Media feature */
+
+@media only screen and (max-width: 500px) {
+  .color-sponsors {
+    margin-top: 5px;
+    background-color: #ffff4d;
+  }
+
+  .tipografia-titulo {
+    font-size: 12px;
+  }
+
+  .lemur {
+    font-size: 10px;
+  }
+
+  .imagen-sponsor {
+    height: 50%;
+  }
+}
+
+/* Tablet styles */
+
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .imagen-sponsor {
+    padding: 20px;
+    margin: 5px;
+    height: 60%;
+  }
+
+  .tipografia-titulo {
+    font-size: 15px;
+  }
+
+  .lemur {
+    font-size: 12px;
+  }
+}
+
+/* Desktop styles */
+
+@media only screen and (min-width: 961px) {
+  .imagen-sponsor {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .tipografia-titulo {
+    font-size: 21px;
+  }
+
+  .lemur {
+    font-size: 13px;
+  }
+}
+
+/* Fin footer */

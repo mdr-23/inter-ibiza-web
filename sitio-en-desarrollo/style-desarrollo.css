@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  align-items: center;
+}
+
+.desarrollo-titulo-mobile {
+  display: none;
+}
+
+.desarrollo-logo-mobile {
+  display: none;
+}
+
+.desarrollo-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-areas:
+    "titulo"
+    "logo";
+  margin: 5%;
+}
+
+.desarrollo-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kanit";
+  font-size: 50px;
+  grid-area: titulo;
+}
+
+.desarrollo-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: logo;
+}
+
+.home-container {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.home-tipografia {
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+
+.home-tipografia:hover {
+  background-color: black;
+  padding: 3px;
+  color: orange;
+  transition: color 0.6s;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 747px) {
+  .desarrollo-titulo {
+    display: none;
+  }
+
+  .desarrollo-logo {
+    display: none;
+  }
+
+  .desarrollo-titulo-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kanit";
+    font-size: 40px;
+  }
+
+  .desarrollo-logo-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: logo;
+  }
+}

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <!-- Icono pestaña -->
+
+  <link rel="icon" href="img/inter-escudo-sinfondo.png" type="image/png" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Animated CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Fuente navbar y títulos -->
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Fuente #vamosinter -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet" />
+
+  <!-- Fuente párrafos y encabezados de noticias -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+  <title>Fixture - Inter Ibiza C.D.</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header-container p-2">
+    <div class="header">
+      <!-- Redes sociales -->
+      <div class="redes-container">
+        <div class="vamos-inter">#InterIbiza</div>
+        <div class="redes">
+          <a href="https://www.facebook.com/profile.php?id=100063573734413" target="_blank"><img
+              src="../img/facebook-AZUL.png" alt="Facebook" height="30" /></a>
+        </div>
+        <div class="redes">
+          <a href="https://www.instagram.com/interibiza/" target="_blank"><img src="../img/instagram-AZUL.png"
+              alt="Instagram" height="30" /></a>
+        </div>
+        <div class="redes">
+          <a href="https://twitter.com/IbizaInter" target="_blank"><img src="../img/twitter-AZUL.png" alt="Twitter"
+              height="30" /></a>
+        </div>
+        <div class="redes">
+          <a href="https://www.youtube.com/channel/UCXF9_makr9jYH7hY5ULiBWg" target="_blank"><img
+              src="../img/youtube-AZUL.png" alt="Youtube" height="30" /></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Fin de Header -->
+
+  <!-- Navbar -->
+  <nav class="menu-container p-2 align-items-center navbar navbar-ipadpro navbar-expand-xl navbar-light bg-light">
+    <div class="logo-mobile d-block d-sm-block d-md-block d-lg-block d-xl-none">
+      <a href="../index.html"><img class="logo-inter" src=".././img/inter-escudo-sinfondo.png" alt="Inter Ibiza"
+          height="100" /></a>
+    </div>
+    <!-- Navegación -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navbar-collapse justify-content-center" id="navbarNav">
+      <div class="logo d-none d-sm-none d-lg-none d-xl-block ">
+        <a href="../index.html"><img class="logo-inter" src=".././img/inter-escudo-sinfondo.png" alt="Inter Ibiza"
+            height="170" /></a>
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link link-navbar link-navbar-ipadpro" aria-current="page" href="../index.html">INICIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-navbar link-navbar-ipadpro" href=".././noticias/noticia-1.html">NOTICIAS</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link link-navbar link-navbar-ipadpro dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+            role="button" data-bs-toggle="dropdown" aria-expanded="false">FÚTBOL</a>
+          <ul class="dropdown-menu nav-submenu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item link-navbar-submenu"
+                href=".././sitio-en-desarrollo/sitio-en-desarrollo.html">PLANTILLA</a></li>
+            <li><a class="dropdown-item link-navbar-submenu" href="clasificacion.html">CLASIFICACIÓN</a></li>
+            <li><a class="dropdown-item link-navbar-submenu" href="fixture.html">FIXTURE</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link link-navbar link-navbar-ipadpro dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+            role="button" data-bs-toggle="dropdown" aria-expanded="false">CLUB</a>
+          <ul class="dropdown-menu nav-submenu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item link-navbar-submenu" href="../directiva.html">DIRECTIVA</a></li>
+            <li><a class="dropdown-item link-navbar-submenu"
+                href=".././sitio-en-desarrollo/sitio-en-desarrollo.html">DEPORTES</a></li>
+            <li><a class="dropdown-item link-navbar-submenu"
+                href=".././sitio-en-desarrollo/sitio-en-desarrollo.html">HISTORIA</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-navbar link-navbar-ipadpro"
+            href=".././sitio-en-desarrollo/sitio-en-desarrollo.html">HAZTE SOCIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-navbar link-navbar-ipadpro"
+            href=".././sitio-en-desarrollo/sitio-en-desarrollo.html">TIENDA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-navbar link-navbar-ipadpro" href="../contacto.html">CONTACTO</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <!-- Fin Navbar -->
+
+  <!-- Fixture título -->
+  <section class="seccion-1-contacto seccion-1-fixture-mobile">
+    <h1 class="titulo-pagina">Fixture</h1>
+  </section>
+  <!-- fin Fixture título -->
+
+  <!-- fixture -->
+  <div class="container-titulos-fixture">
+    <h2 class="titulo-fixture">Resultados Preferente Baleares</h2>
+    <h3 class="subtitulo-fixture">IBIZA-FORMENTERA</h3>
+  </div>
+  <div class="table-responsive contenedor-fixture container-fluid">
+    <table class="table caption-top tabla">
+      <thead class="divisiones-fixture">
+        <tr>
+          <th class="jornadas-fixture" scope="col">Jornadas</th>
+          <th scope="col">Fecha</th>
+          <th scope="col">Hora</th>
+          <th class="jornadas-fixture" scope="col"></th>
+          <th scope="col"></th>
+          <th scope="col">Partidos</th>
+          <th scope="col"></th>
+          <th class="jornadas-fixture" scope="col"></th>
+        </tr>
+      </thead>
+      <tbody class="info-fixture">
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 1</th>
+          <td>25/10/2020</td>
+          <td>20:00</td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="color-numero">2-0</td>
+          <td><img src="../img-escudos/AtleticoJesus.png" height="30" alt="Atlético Jesús"></td>
+          <td class="jornadas-fixture">Atlético Jesús</td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 2</th>
+          <td>15/11/2020</td>
+          <td>13:00</td>
+          <td class="jornadas-fixture">Formentera B</td>
+          <td><img src="../img-escudos/FormenteraB.png" height="30" alt="Formentera B"></td>
+          <td class="color-numero">3-4</td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 3</th>
+          <td>06/12/2020</td>
+          <td>18:00</td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="color-numero">2-2</td>
+          <td><img src="../img-escudos/SantJosep.png" height="30" alt="Sant Jusep"></td>
+          <td class="jornadas-fixture">Sant Josep</td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 4</th>
+          <td>06/01/2021</td>
+          <td>17:00</td>
+          <td class="jornadas-fixture">Peña Deportiva B</td>
+          <td> <img src="../img-escudos/PeñaDeportiva.png" height="30" alt="Peña Deportiva"></td>
+          <td class="color-numero">0-2</td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 5</th>
+          <td>Jornada libre</td>
+          <td>Jornada libre</td>
+          <td class="jornadas-fixture">-</td>
+          <td>-</td>
+          <td>Jornada libre</td>
+          <td>-</td>
+          <td class="jornadas-fixture">-</td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 6</th>
+          <td>21/04/2021</td>
+          <td>19:15</td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="color-numero">0-1</td>
+          <td><img src="../img-escudos/SantaGertrudis.png" height="30" alt="Santa Gertrudis"></td>
+          <td class="jornadas-fixture">Santa Gertrudis</td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 7</th>
+          <td>29/04/2021</td>
+          <td>20:30</td>
+          <td class="jornadas-fixture">B. San Agustín</td>
+          <td><img src="../img-escudos/SanAgustin.png" height="25" alt="San Agustin"></td>
+          <td class="color-numero">0-4</td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 8</th>
+          <td>09/05/2021</td>
+          <td>18:30</td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="color-numero">3-1 </td>
+          <td><img src="../img-escudos/SantJordi.png" height="30" alt="PE Sant Jordi B"></td>
+          <td class="jornadas-fixture">PE Sant Jordi B</td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 9</th>
+          <td>20/05/2021</td>
+          <td>19:30</td>
+          <td class="jornadas-fixture">Penya Independent</td>
+          <td><img src="../img-escudos/PenyaIndepedent.png" height="25" alt="Penya Independent"></td>
+          <td class="color-numero">1-1</td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 10</th>
+          <td>27/05/2021</td>
+          <td>19:30</td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="color-numero">8-0</td>
+          <td><img src="../img-escudos/cdPuig.png" height="25" alt="Puig d'en Valls"></td>
+          <td class="jornadas-fixture">Puig d'en Valls</td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 11</th>
+          <td>06/06/2021</td>
+          <td>18:30</td>
+          <td class="jornadas-fixture">Luchador</td>
+          <td><img src="../img-escudos/FCLuchador.png" height="27" alt="Luchador"></td>
+          <td class="color-numero">1-4</td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 12</th>
+          <td>01/11/2020</td>
+          <td>18:00</td>
+          <td class="jornadas-fixture">Atlético Jesús</td>
+          <td><img src="../img-escudos/AtleticoJesus.png" height="30" alt="Atlético Jesús"></td>
+          <td class="color-numero">0-2 </td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 13</th>
+          <td>22/11/2020</td>
+          <td>18:30</td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="color-numero">3-4</td>
+          <td><img src="../img-escudos/FormenteraB.png" height="30" alt="Formentera B"></td>
+          <td class="jornadas-fixture">Formentera B</td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 14</th>
+          <td>11/12/2020</td>
+          <td>22:00</td>
+          <td class="jornadas-fixture">Sant Josep</td>
+          <td><img src="../img-escudos/SantJosep.png" height="30" alt="Sant Josep"></td>
+          <td class="color-numero">1-3</td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 15</th>
+          <td>10/01/2021</td>
+          <td>18:00</td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="color-numero">0-3</td>
+          <td><img src="../img-escudos/PeñaDeportiva.png" height="30" alt="Peña Deportiva B"></td>
+          <td class="jornadas-fixture">Peña Deportiva B</td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 16</th>
+          <td>Jornada libre</td>
+          <td>Jornada libre</td>
+          <td class="jornadas-fixture">-</td>
+          <td>-</td>
+          <td>Jornada libre</td>
+          <td>-</td>
+          <td class="jornadas-fixture">-</td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 17</th>
+          <td>25/04/2021</td>
+          <td>17:00</td>
+          <td class="jornadas-fixture">Santa Gertrudis</td>
+          <td><img src="../img-escudos/SantaGertrudis.png" height="30" alt="Santa Gertrudis"></td>
+          <td class="color-numero">1-3</td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 18</th>
+          <td>02/05/2021</td>
+          <td>17:00</td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="color-numero">7-0</td>
+          <td><img src="../img-escudos/SanAgustin.png" height="25" alt="B. San Agustín"></td>
+          <td class="jornadas-fixture">B. San Agustín</td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 19</th>
+          <td>16/05/2021</td>
+          <td>18:30</td>
+          <td class="jornadas-fixture">PE Sant Jordi B</td>
+          <td><img src="../img-escudos/SantJordi.png" height="30" alt="PE Sant Jordi B"></td>
+          <td class="color-numero">1-3</td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 20</th>
+          <td>23/05/2021</td>
+          <td>18:30</td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="color-numero">2-1</td>
+          <td><img src="../img-escudos/PenyaIndepedent.png" height="25" alt="Penya Independent"></td>
+          <td class="jornadas-fixture">Penya Independent</td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row">Jornada 21</th>
+          <td>30/05/2021</td>
+          <td>18:30</td>
+          <td class="jornadas-fixture">Puig d'en Valls</td>
+          <td><img src="../img-escudos/cdPuig.png" height="30" alt="Puig d'en Valls"></td>
+          <td class="color-numero">0-11</td>
+          <td><img src="../img-escudos/InterIbiza.png" height="25" alt="inter ibiza"></td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+        </tr>
+        <tr>
+          <th class="jornadas-fixture" scope="row"><a href="../noticias/noticia-3.html" class="jornada-final">Jornada 22<img src="../img/derecho.png" height="15" alt="flecha"></a></th>
+          <td>13/06/2021</td>
+          <td>18:00</td>
+          <td class="jornadas-fixture"><strong>Inter Ibiza</strong></td>
+          <td><img src="../img-escudos/InterIbiza.png" height="30" alt="inter ibiza"></td>
+          <td class="color-numero">3-0</td>
+          <td><img src="../img-escudos/FCLuchador.png" height="27" alt="Luchador"></td>
+          <td class="jornadas-fixture">Luchador</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- final fixture -->
+
+  <!-- Footer -->
+  <footer>
+    <!-- Sponsors footer -->
+    <div class="color-sponsors">
+      <section class="sponsors">
+        <a href="https://www.joma-sport.com/" target="_blank" class="imagen-sponsor">
+          <img src="../img/Joma-Logo.png" alt="sponsor joma" height="120">
+        </a>
+        <a href="https://www.instagram.com/p/CNqEUydMyRG/" target="_blank" class="imagen-sponsor">
+          <img src="../img/5ac036dd-6810-42bd-a005-986f92b201f8.jfif" alt="sponsor conecting sports talent" height="60">
+        </a>
+      </section>
+    </div>
+    <!-- Final sponsors footer -->
+
+    <!-- Escudo footer -->
+    <div class="lemur-container">
+      <section class="lemur">
+        Desarrollado por Lemur Media Studio®
+        <a href="../sitio-en-desarrollo/sitio-en-desarrollo.html" target="_blank" class="imagen-sponsor">
+          <img src="../img/Lemur-1.png" alt="sponsor lemur media studio" height="80">
+        </a>
+      </section>
+    </div>
+    <!-- Final Escudo footer -->
+  </footer>
+  <!-- Final footer -->
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
